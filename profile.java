@@ -13,8 +13,8 @@ public class profile{
         // Navigate to Naukri.com login page
         driver.get("https://www.naukri.com");
         // Enter login credentials
-        driver.findElement(By.xpath("//input[@id='usernameField']")).sendKeys("mehakbanu9036@gmail.com");
-        driver.findElement(By.xpath("//input[@id='passwordField']")).sendKeys("Meh@k7022");
+        driver.findElement(By.xpath("//input[@id='usernameField']")).sendKeys("Your Email");
+        driver.findElement(By.xpath("//input[@id='passwordField']")).sendKeys("Your Password");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         // Wait for login to complete
